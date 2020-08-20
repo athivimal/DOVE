@@ -59,7 +59,8 @@ import { GaugeChartModule } from "angular-gauge-chart";
 export const MQTT_SERVICE_OPTIONS: IMqttServiceOptions = {
   hostname: "broker.hivemq.com", // "192.168.1.100",
    port:8000,
-  path: "/mqtt" //"/ws"
+  path: "/mqtt",
+  protocol :"ws"//"/ws"
  };
 
 // For loraserver
