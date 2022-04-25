@@ -37,7 +37,7 @@ export class EspMeterComponent implements OnInit {
 
   constructor(private _mqttService: MqttService) {
     this._mqttService
-      .observe("kt-datavim/#")
+      .observe("acl-ch/#")
       .subscribe((message: IMqttMessage) => {
         this.message = message.payload.toString();
         console.log(this.message);
