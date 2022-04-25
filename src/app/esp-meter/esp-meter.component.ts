@@ -16,7 +16,7 @@ export class EspMeterComponent implements OnInit {
   public canvasWidth = 300;
   public needleValue = 5;
   public centralLabel = "";
-  public name = "Gauge chart";
+  public name = "Gauge Charts";
   public bottomLabel = "1";
   public options = {
     hasNeedle: true,
